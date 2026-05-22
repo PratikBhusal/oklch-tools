@@ -1,0 +1,5 @@
+allowBuilds:
+  esbuild: true
+  yarn: true
+patchedDependencies:
+  "@colordx/core": patches/@colordx__core.patch

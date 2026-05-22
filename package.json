@@ -1,0 +1,29 @@
+{
+  "name": "oklch-tools",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "main.mts",
+  "scripts": {
+    "check:check": "oxfmt --check .",
+    "format": "oxfmt --write .",
+    "main": "tsx main.mts"
+  },
+  "dependencies": {
+    "@colordx/core": "^5.4.3"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.51.0",
+    "tsx": "^4.22.3"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.2.2",
+      "onFail": "download"
+    }
+  }
+}
